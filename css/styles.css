@@ -14,7 +14,7 @@ a {
 }
 
 button {
-
+    cursor: pointer;
 }
 /* Header */
 
@@ -106,11 +106,10 @@ button {
 /* Our Team */
 
 .team {
-    background: #f4f4fd;
+    background-color: #f4f4fd;
 }
 
 .team-title {
-        font-weight: 700;
         font-size: 36px;
         line-height: 1.11111;
         letter-spacing: 0.02em;
@@ -143,10 +142,9 @@ button {
 
 /* portfolio */
 
-.portfolio {}
+/* .portfolio {} */
 
 .portfolio-title {
-        font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
         letter-spacing: 0.02em;
@@ -178,16 +176,7 @@ button {
 /* footer */
 
 .footer {
-     background: #2e2f42;
-}
-
-.footer-link {
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4d5ae5;
+     background-color: #2e2f42;
 }
 
 .footer-text {
@@ -197,11 +186,6 @@ button {
         color: #f4f4fd;
 }
 
-.logo-accent {
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 1.16;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
+.footer-link .logo-part {
         color: #f4f4fd;
 }
