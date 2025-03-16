@@ -118,7 +118,7 @@ background-color: #404bbf;
 
 .team-title {
         font-size: 36px;
-        line-height: 1.11111;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
@@ -127,9 +127,11 @@ background-color: #404bbf;
 
 /* .team-list {} 
 
-.team-list-item {}
-
 .team-img {}  */
+
+.team-list-item {
+    background-color: #FFFFFF
+}
 
 .team-subtitle {
         font-weight: 500;
